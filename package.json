@@ -1,0 +1,22 @@
+{
+  "name": "sparta-globe",
+  "version": "1.0.0",
+  "description": "Display to show Sparta Global's international growth and amazing team members",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stoobaart/SpartaGlobe.git"
+  },
+  "author": "Team Pantheon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stoobaart/SpartaGlobe/issues"
+  },
+  "homepage": "https://github.com/Stoobaart/SpartaGlobe#readme",
+  "dependencies": {
+    
+  }
+}
