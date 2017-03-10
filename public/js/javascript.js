@@ -60,8 +60,8 @@ document.addEventListener("DOMContentLoaded", function() {
             return function(t) {
               projection.rotate(r(t));
               c.clearRect(0, 0, width, height);
-              c.fillStyle = "#ccc", c.beginPath(), path(land), c.fill();
-              c.fillStyle = "#f00", c.beginPath(), path(countries[i]), c.fill();
+              c.fillStyle = "#2E373C", c.beginPath(), path(land), c.fill();
+              c.fillStyle = "#0B8EC8", c.beginPath(), path(countries[i]), c.fill();
               c.strokeStyle = "#fff", c.lineWidth = .5, c.beginPath(), path(borders), c.stroke();
               c.strokeStyle = "#000", c.lineWidth = 2, c.beginPath(), path(globe), c.stroke();
             };

@@ -1,3 +1,31 @@
-h1 { 
-  color: blue;
- }
+header {
+    width: 100%;
+    top: 0;
+    background: #2E373C;
+    border-bottom: 2px solid #34BEEF;
+    padding: 25px 12%;
+    z-index: 99999;
+    display: inline-block;
+    float: left;
+    clear: both;
+}
+
+header img {
+
+    padding: 5px;
+    margin: 0px;
+    width: 125px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+form {
+  display: inline-block;
+}
+
+body {
+  background-color: #DDE9EB;
+}
