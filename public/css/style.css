@@ -29,3 +29,16 @@ form {
 body {
   background-color: #DDE9EB;
 }
+
+h1 {
+  text-align: center;
+  color: #0B8EC8;
+}
+
+#canvas_container {
+  text-align: center;
+}
+
+body {
+  font-family: Ubuntu, "Source Sans Pro", Arial, sans-serif;
+}

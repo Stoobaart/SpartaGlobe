@@ -8,14 +8,10 @@ document.addEventListener("DOMContentLoaded", function() {
       .scale(width / 2 - 20)
       .clipAngle(90)
       .precision(0.6);
-      
-  var canvas = d3.select("body").append("canvas")
+
+  var canvas = d3.select("#canvas_container").append("canvas")
       .attr("width", width)
       .attr("height", height);
-
-  //var canvas = d3.select("globe_canvas");
-  console.log(d3)
-  console.log(canvas);
 
   var c = canvas.node().getContext("2d");
 
@@ -27,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   queue()
       .defer(d3.json, "../globe-data/world-110m.json")
-      .defer(d3.tsv, "../globe-data/world-country-names.tsv")
+      .defer(d3.tsv, "../globe-data/SpartaContries.tsv")
       .await(ready);
 
   function ready(error, world, names) {
@@ -50,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     (function transition() {
       d3.transition()
-          .duration(1250)
+          .duration(2000)
           .each("start", function() {
             title.text(countries[i = (i + 1) % n].name);
           })
